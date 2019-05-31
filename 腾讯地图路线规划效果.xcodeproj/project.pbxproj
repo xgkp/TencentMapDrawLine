@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15DEFDB922A0D186006D5C18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DEFDB822A0D186006D5C18 /* AppDelegate.m */; };
+		15DEFDBC22A0D186006D5C18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DEFDBB22A0D186006D5C18 /* ViewController.m */; };
+		15DEFDBF22A0D186006D5C18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15DEFDBD22A0D186006D5C18 /* Main.storyboard */; };
+		15DEFDC122A0D188006D5C18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15DEFDC022A0D188006D5C18 /* Assets.xcassets */; };
+		15DEFDC422A0D188006D5C18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15DEFDC222A0D188006D5C18 /* LaunchScreen.storyboard */; };
+		15DEFDC722A0D188006D5C18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DEFDC622A0D188006D5C18 /* main.m */; };
+		15DEFDD322A0D6B7006D5C18 /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DEFDD222A0D6B7006D5C18 /* CustomAnnotationView.m */; };
+		15DEFDD622A0DABF006D5C18 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DEFDD522A0DABF006D5C18 /* libsqlite3.tbd */; };
+		15DEFDD822A0DAD7006D5C18 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DEFDD722A0DAD7006D5C18 /* libc++.tbd */; };
+		15DEFDDD22A1039F006D5C18 /* QMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DEFDDC22A1039F006D5C18 /* QMapKit.framework */; };
+		15DEFDDF22A103A9006D5C18 /* QMapKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 15DEFDDE22A103A9006D5C18 /* QMapKit.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15DEFDB422A0D186006D5C18 /* 腾讯地图路线规划效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "腾讯地图路线规划效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15DEFDB722A0D186006D5C18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		15DEFDB822A0D186006D5C18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		15DEFDBA22A0D186006D5C18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		15DEFDBB22A0D186006D5C18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		15DEFDBE22A0D186006D5C18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15DEFDC022A0D188006D5C18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15DEFDC322A0D188006D5C18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15DEFDC522A0D188006D5C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15DEFDC622A0D188006D5C18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15DEFDD122A0D6B7006D5C18 /* CustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotationView.h; sourceTree = "<group>"; };
+		15DEFDD222A0D6B7006D5C18 /* CustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotationView.m; sourceTree = "<group>"; };
+		15DEFDD522A0DABF006D5C18 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		15DEFDD722A0DAD7006D5C18 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		15DEFDDC22A1039F006D5C18 /* QMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QMapKit.framework; sourceTree = "<group>"; };
+		15DEFDDE22A103A9006D5C18 /* QMapKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = QMapKit.bundle; path = QMapKit.framework/QMapKit.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15DEFDB122A0D186006D5C18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DEFDDD22A1039F006D5C18 /* QMapKit.framework in Frameworks */,
+				15DEFDD822A0DAD7006D5C18 /* libc++.tbd in Frameworks */,
+				15DEFDD622A0DABF006D5C18 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15DEFDAB22A0D186006D5C18 = {
+			isa = PBXGroup;
+			children = (
+				15DEFDB622A0D186006D5C18 /* 腾讯地图路线规划效果 */,
+				15DEFDB522A0D186006D5C18 /* Products */,
+				15DEFDD422A0DABE006D5C18 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		15DEFDB522A0D186006D5C18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15DEFDB422A0D186006D5C18 /* 腾讯地图路线规划效果.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15DEFDB622A0D186006D5C18 /* 腾讯地图路线规划效果 */ = {
+			isa = PBXGroup;
+			children = (
+				15DEFDD922A102C2006D5C18 /* Vender */,
+				15DEFDD122A0D6B7006D5C18 /* CustomAnnotationView.h */,
+				15DEFDD222A0D6B7006D5C18 /* CustomAnnotationView.m */,
+				15DEFDB722A0D186006D5C18 /* AppDelegate.h */,
+				15DEFDB822A0D186006D5C18 /* AppDelegate.m */,
+				15DEFDBA22A0D186006D5C18 /* ViewController.h */,
+				15DEFDBB22A0D186006D5C18 /* ViewController.m */,
+				15DEFDBD22A0D186006D5C18 /* Main.storyboard */,
+				15DEFDC022A0D188006D5C18 /* Assets.xcassets */,
+				15DEFDC222A0D188006D5C18 /* LaunchScreen.storyboard */,
+				15DEFDC522A0D188006D5C18 /* Info.plist */,
+				15DEFDC622A0D188006D5C18 /* main.m */,
+			);
+			path = "腾讯地图路线规划效果";
+			sourceTree = "<group>";
+		};
+		15DEFDD422A0DABE006D5C18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15DEFDD722A0DAD7006D5C18 /* libc++.tbd */,
+				15DEFDD522A0DABF006D5C18 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15DEFDD922A102C2006D5C18 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				15DEFDDE22A103A9006D5C18 /* QMapKit.bundle */,
+				15DEFDDC22A1039F006D5C18 /* QMapKit.framework */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15DEFDB322A0D186006D5C18 /* 腾讯地图路线规划效果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15DEFDCA22A0D188006D5C18 /* Build configuration list for PBXNativeTarget "腾讯地图路线规划效果" */;
+			buildPhases = (
+				15DEFDB022A0D186006D5C18 /* Sources */,
+				15DEFDB122A0D186006D5C18 /* Frameworks */,
+				15DEFDB222A0D186006D5C18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "腾讯地图路线规划效果";
+			productName = "腾讯地图路线规划效果";
+			productReference = 15DEFDB422A0D186006D5C18 /* 腾讯地图路线规划效果.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15DEFDAC22A0D186006D5C18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Pro;
+				TargetAttributes = {
+					15DEFDB322A0D186006D5C18 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 15DEFDAF22A0D186006D5C18 /* Build configuration list for PBXProject "腾讯地图路线规划效果" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15DEFDAB22A0D186006D5C18;
+			productRefGroup = 15DEFDB522A0D186006D5C18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15DEFDB322A0D186006D5C18 /* 腾讯地图路线规划效果 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15DEFDB222A0D186006D5C18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DEFDC422A0D188006D5C18 /* LaunchScreen.storyboard in Resources */,
+				15DEFDDF22A103A9006D5C18 /* QMapKit.bundle in Resources */,
+				15DEFDC122A0D188006D5C18 /* Assets.xcassets in Resources */,
+				15DEFDBF22A0D186006D5C18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15DEFDB022A0D186006D5C18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DEFDBC22A0D186006D5C18 /* ViewController.m in Sources */,
+				15DEFDC722A0D188006D5C18 /* main.m in Sources */,
+				15DEFDD322A0D6B7006D5C18 /* CustomAnnotationView.m in Sources */,
+				15DEFDB922A0D186006D5C18 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15DEFDBD22A0D186006D5C18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15DEFDBE22A0D186006D5C18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15DEFDC222A0D188006D5C18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15DEFDC322A0D188006D5C18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15DEFDC822A0D188006D5C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		15DEFDC922A0D188006D5C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15DEFDCB22A0D188006D5C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/腾讯地图路线规划效果",
+					"$(PROJECT_DIR)/腾讯地图路线规划效果/Vender",
+				);
+				INFOPLIST_FILE = "腾讯地图路线规划效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "NewContent.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15DEFDCC22A0D188006D5C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/腾讯地图路线规划效果",
+					"$(PROJECT_DIR)/腾讯地图路线规划效果/Vender",
+				);
+				INFOPLIST_FILE = "腾讯地图路线规划效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "NewContent.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15DEFDAF22A0D186006D5C18 /* Build configuration list for PBXProject "腾讯地图路线规划效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15DEFDC822A0D188006D5C18 /* Debug */,
+				15DEFDC922A0D188006D5C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15DEFDCA22A0D188006D5C18 /* Build configuration list for PBXNativeTarget "腾讯地图路线规划效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15DEFDCB22A0D188006D5C18 /* Debug */,
+				15DEFDCC22A0D188006D5C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15DEFDAC22A0D186006D5C18 /* Project object */;
+}
