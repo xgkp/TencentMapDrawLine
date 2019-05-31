@@ -5,7 +5,9 @@
 ## Build generated
 build/
 DerivedData/
-
+Vender/
+*Vernder/
+*/Vernder/
 ## Various settings
 *.pbxuser
 !default.pbxuser
